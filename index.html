@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Privacy Policy — BlinkRead</title>
+<meta name="description" content="Privacy Policy for BlinkRead, a speed reading app using RSVP technology." />
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f8f9fb;
+    --border: #e5e7eb;
+    --text: #111827;
+    --muted: #6b7280;
+    --accent: #2563eb;
+    --accent-soft: #eff6ff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0b0d12;
+      --surface: #12151c;
+      --border: #1f2430;
+      --text: #e5e7eb;
+      --muted: #9aa3b2;
+      --accent: #60a5fa;
+      --accent-soft: #0f1b33;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 56px 24px 96px; }
+  header { margin-bottom: 40px; }
+  .brand {
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 6px 12px; border-radius: 999px;
+    background: var(--accent-soft); color: var(--accent);
+    font-size: 13px; font-weight: 600; letter-spacing: 0.02em;
+  }
+  .brand::before {
+    content: ""; width: 8px; height: 8px; border-radius: 50%;
+    background: var(--accent);
+  }
+  h1 {
+    font-size: 36px; line-height: 1.2; margin: 18px 0 10px; letter-spacing: -0.02em;
+  }
+  .meta { color: var(--muted); font-size: 14px; margin: 0; }
+  .toc {
+    margin: 32px 0 40px; padding: 18px 20px;
+    background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+  }
+  .toc h2 { font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 0 0 10px; }
+  .toc ol { margin: 0; padding-left: 20px; }
+  .toc li { margin: 4px 0; }
+  .toc a { color: var(--text); text-decoration: none; }
+  .toc a:hover { color: var(--accent); }
+  section { margin: 40px 0; }
+  section h2 {
+    font-size: 22px; margin: 0 0 12px; letter-spacing: -0.01em;
+    scroll-margin-top: 24px;
+  }
+  section h3 { font-size: 16px; margin: 20px 0 6px; color: var(--muted); }
+  p { margin: 10px 0; }
+  ul { margin: 10px 0; padding-left: 22px; }
+  ul li { margin: 4px 0; }
+  a { color: var(--accent); }
+  code {
+    background: var(--surface); border: 1px solid var(--border);
+    padding: 1px 6px; border-radius: 6px; font-size: 0.92em;
+  }
+  table {
+    width: 100%; border-collapse: collapse; margin: 16px 0;
+    font-size: 14px;
+  }
+  th, td {
+    text-align: left; padding: 10px 12px;
+    border-bottom: 1px solid var(--border); vertical-align: top;
+  }
+  th { background: var(--surface); font-weight: 600; color: var(--muted); }
+  .callout {
+    margin: 18px 0; padding: 14px 16px;
+    background: var(--accent-soft); border-left: 3px solid var(--accent);
+    border-radius: 8px; font-size: 14.5px;
+  }
+  footer {
+    margin-top: 64px; padding-top: 24px; border-top: 1px solid var(--border);
+    color: var(--muted); font-size: 13px; text-align: center;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <span class="brand">BlinkRead</span>
+      <h1>Privacy Policy</h1>
+      <p class="meta">Last updated: April 22, 2026 · Effective immediately</p>
+    </header>
+
+    <p>
+      This Privacy Policy explains how <strong>BlinkRead</strong> ("we," "our," or "the app") collects,
+      uses, and protects your information when you use our mobile application. BlinkRead is a speed
+      reading app that uses RSVP (Rapid Serial Visual Presentation) technology to help you read faster.
+      By using the app, you agree to the practices described below.
+    </p>
+
+    <nav class="toc" aria-label="Table of contents">
+      <h2>Contents</h2>
+      <ol>
+        <li><a href="#data">Information we collect</a></li>
+        <li><a href="#use">How we use your information</a></li>
+        <li><a href="#third-parties">Third-party services</a></li>
+        <li><a href="#purchases">Subscriptions &amp; purchases</a></li>
+        <li><a href="#retention">Data retention</a></li>
+        <li><a href="#rights">Your rights &amp; account deletion</a></li>
+        <li><a href="#children">Children's privacy</a></li>
+        <li><a href="#security">Security</a></li>
+        <li><a href="#changes">Changes to this policy</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ol>
+    </nav>
+
+    <section id="data">
+      <h2>1. Information we collect</h2>
+      <p>To provide the app's features, we collect the following:</p>
+
+      <h3>Account information</h3>
+      <p>
+        When you sign in with Google or Apple, we receive your <strong>email address</strong>,
+        <strong>display name</strong>, and a unique user identifier provided by the sign-in provider.
+        Sign in with Apple may provide a relay email (<code>@privaterelay.appleid.com</code>) instead of
+        your real address if you choose to hide it.
+      </p>
+
+      <h3>Reading data</h3>
+      <ul>
+        <li>Books you upload or add to your library (stored in your private cloud storage)</li>
+        <li>Reading progress, last-read position, and chapter state</li>
+        <li>Reading preferences (theme, text size, WPM, fonts, RSVP settings)</li>
+        <li>Onboarding answers and reading goals</li>
+      </ul>
+
+      <h3>Subscription data</h3>
+      <p>
+        Purchase receipts and subscription status are handled by Apple (App Store) or Google (Play Store)
+        and relayed to our subscription provider, RevenueCat, to unlock premium features. We do not see
+        or store your payment method, card number, or billing address.
+      </p>
+
+      <h3>Technical data</h3>
+      <p>
+        Standard platform-level information such as device model, OS version, and anonymous installation
+        identifiers may be processed by our service providers (Firebase, Google, Apple) to keep the app
+        running. BlinkRead does not include any third-party advertising or marketing SDKs.
+      </p>
+    </section>
+
+    <section id="use">
+      <h2>2. How we use your information</h2>
+      <ul>
+        <li>To authenticate you and keep your account secure</li>
+        <li>To sync your library, reading progress, and preferences across devices</li>
+        <li>To verify your subscription status and unlock premium features</li>
+        <li>To diagnose crashes and technical problems</li>
+        <li>To respond to your support requests</li>
+      </ul>
+      <p>
+        We do <strong>not</strong> sell your personal information, and we do not use it for advertising,
+        profiling, or any purpose unrelated to operating the app.
+      </p>
+    </section>
+
+    <section id="third-parties">
+      <h2>3. Third-party services</h2>
+      <p>
+        We use a small number of trusted service providers. Each has its own privacy policy that governs
+        the data they process on our behalf.
+      </p>
+      <table>
+        <thead>
+          <tr><th>Service</th><th>Purpose</th><th>Policy</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Firebase Authentication</td>
+            <td>Sign-in and account management</td>
+            <td><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Link</a></td>
+          </tr>
+          <tr>
+            <td>Cloud Firestore</td>
+            <td>Storing library metadata, reading progress, preferences</td>
+            <td><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Link</a></td>
+          </tr>
+          <tr>
+            <td>Firebase Storage</td>
+            <td>Storing uploaded EPUB files for your library</td>
+            <td><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Link</a></td>
+          </tr>
+          <tr>
+            <td>Google Sign-In</td>
+            <td>Optional sign-in method</td>
+            <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Link</a></td>
+          </tr>
+          <tr>
+            <td>Sign in with Apple</td>
+            <td>Optional sign-in method</td>
+            <td><a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Link</a></td>
+          </tr>
+          <tr>
+            <td>RevenueCat</td>
+            <td>Subscription management and receipt validation</td>
+            <td><a href="https://www.revenuecat.com/privacy/" target="_blank" rel="noopener">Link</a></td>
+          </tr>
+          <tr>
+            <td>Apple App Store / Google Play</td>
+            <td>Processing purchases and subscriptions</td>
+            <td>See each store's policy</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="purchases">
+      <h2>4. Subscriptions &amp; purchases</h2>
+      <p>
+        BlinkRead offers optional premium subscriptions (monthly, annual) and a lifetime purchase.
+        Monthly and annual subscriptions may include a 3-day free trial for eligible new customers.
+        Payments are processed exclusively by Apple or Google; we never receive your payment credentials.
+      </p>
+      <p>
+        Subscriptions auto-renew at the end of each billing period unless cancelled at least 24 hours
+        beforehand through your device's store settings. You can manage or cancel subscriptions at any
+        time from the App Store (iOS) or Google Play (Android).
+      </p>
+    </section>
+
+    <section id="retention">
+      <h2>5. Data retention</h2>
+      <p>
+        We keep your account data for as long as your account is active. When you delete your account,
+        we remove your profile, library metadata, reading progress, and uploaded files from our active
+        systems within a reasonable period. Backups may retain copies for a short additional window
+        before being overwritten in the normal course of business.
+      </p>
+    </section>
+
+    <section id="rights">
+      <h2>6. Your rights &amp; account deletion</h2>
+      <p>Depending on your jurisdiction (GDPR, CCPA, and similar laws), you have the right to:</p>
+      <ul>
+        <li>Access the personal data we hold about you</li>
+        <li>Correct inaccurate data</li>
+        <li>Request deletion of your data</li>
+        <li>Withdraw consent and stop using the app at any time</li>
+        <li>Request a copy of your data in a portable format</li>
+      </ul>
+      <div class="callout">
+        <strong>Delete your account directly in the app:</strong> open
+        <em>Settings → Account → Delete Account</em>. This removes your account and associated data from
+        our servers. You can also email us at the address below and we will process the request manually.
+      </div>
+    </section>
+
+    <section id="children">
+      <h2>7. Children's privacy</h2>
+      <p>
+        BlinkRead is not directed to children under 13 (or the minimum age required in your country).
+        We do not knowingly collect personal information from children. If you believe a child has
+        provided us with personal information, please contact us and we will delete it.
+      </p>
+    </section>
+
+    <section id="security">
+      <h2>8. Security</h2>
+      <p>
+        We rely on industry-standard security practices from our infrastructure providers, including
+        encrypted connections (HTTPS/TLS) for all data in transit, Firebase security rules to restrict
+        access to your data, and platform-level protections provided by iOS and Android. No method of
+        electronic storage or transmission is 100% secure, but we work to protect your data using
+        commercially reasonable safeguards.
+      </p>
+    </section>
+
+    <section id="changes">
+      <h2>9. Changes to this policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. When we make material changes, we will
+        update the "Last updated" date at the top of this page and, where appropriate, notify you inside
+        the app. Continued use of the app after the changes take effect constitutes acceptance of the
+        updated policy.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>10. Contact</h2>
+      <p>
+        If you have any questions, concerns, or requests regarding this Privacy Policy or your data,
+        please contact us at:
+      </p>
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:blinkreadapp@gmail.com">blinkreadapp@gmail.com</a>
+      </p>
+    </section>
+
+    <footer>
+      &copy; 2026 BlinkRead. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
